@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E9F6A016-2E51-0BDE-BADE-0AF8BEBF4684}</ProjectGuid>
+    <ProjectGuid>{07D7F1B4-BFD8-816D-BC28-3C2F144E3F8D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\arts\Script\Player.cs" />
+    <Compile Include="Assets\arts\Script\Camera.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
@@ -404,11 +405,11 @@
     <Reference Include="Bolt.Flow.Runtime">
       <HintPath>Assets\Ludiq\Assemblies\Bolt.Flow.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Ludiq.Core.Runtime">
-      <HintPath>Assets\Ludiq\Assemblies\Ludiq.Core.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="MiscUtil">
       <HintPath>Assets\Ludiq\Assemblies\MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Runtime">
+      <HintPath>Assets\Ludiq\Assemblies\Ludiq.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.State.Runtime">
       <HintPath>Assets\Ludiq\Assemblies\Bolt.State.Runtime.dll</HintPath>
